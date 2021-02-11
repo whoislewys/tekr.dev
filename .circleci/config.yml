@@ -1,0 +1,27 @@
+version: 1
+jobs:
+  build:
+    working-directory: ~/tekr
+    docker:
+      - image: circleci/node:12.4.0
+    steps:
+      - checkout
+      - run:
+          name: update-npm
+          command: 'sudo npm install -g npm@6.9.0'
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json"  }}
+      - run:
+          name: install-npm-deps
+          command: 'npm install'
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json"  }}
+          paths:
+            - ./node_modules
+      - run:
+          name: build-app
+          command: 'npm run build'
+      - run:
+          name: firebase-deploy
+          command: './node_modules/.bin/firebase deploy --token $FIREBASE_TOKEN'
+

@@ -1,0 +1,136 @@
+{
+  "statements": [
+    {
+      "text": "There should be one - and preferably only one - obvious way to do it",
+      "axis": "x",
+      "lean": "conservative"
+    },
+
+    {
+      "text": "Explicit is better than implicit.",
+      "axis": "x",
+      "lean": "conservative"
+    },
+
+    {
+      "text": "Software should aim to be bug free before it launches.",
+      "axis": "x",
+      "lean": "conservative"
+    },
+
+    {
+      "text": "Programmers should be protected from errors.",
+      "axis": "x",
+      "lean": "conservative"
+    },
+
+    {
+      "text": "Programmers have difficulty learning new syntax.",
+      "axis": "x",
+      "lean": "conservative"
+    },
+
+    {
+      "text": "Production code must be safety-checked by a compiler.",
+      "axis": "x",
+      "lean": "conservative"
+    },
+
+
+    {
+      "text": "Data stores must adhere to a well-defined, published schema.",
+      "axis": "x",
+      "lean": "conservative"
+    },
+
+    {
+      "text": "Public interfaces should be rigorously modeled.",
+      "axis": "x",
+      "lean": "conservative"
+    },
+
+    {
+      "text": "Production systems should never have dangerous or risky back-doors.",
+      "axis": "x",
+      "lean": "conservative"
+    },
+
+    {
+      "text": "If there is ANY doubt as to the safety of a component, it cannot be allowed in production.",
+      "axis": "x",
+      "lean": "conservative"
+    },
+
+    {
+      "text": "Fast code is better than slow code.",
+      "axis": "x",
+      "lean": "conservative"
+    },
+
+    {
+      "text": "I like Javascript more than Typescript.",
+      "axis": "x",
+      "lean": "liberal"
+    },
+
+    {
+      "text": "I like Lisp more than Haskell.",
+      "axis": "x",
+      "lean": "liberal"
+    },
+
+    {
+      "text": "Bugs are not a big deal.",
+      "axis": "x",
+      "lean": "liberal"
+    },
+
+    {
+      "text": "Programmers are only newbies for a little while.",
+      "axis": "x",
+      "lean": "liberal"
+    },
+
+    {
+      "text": "Programmers figure stuff out amazingly fast when their jobs depend on it.",
+      "axis": "x",
+      "lean": "liberal"
+    },
+
+    {
+      "text": "Succinctness is power.",
+      "axis": "x",
+      "lean": "liberal"
+    },
+
+    {
+      "text": "Rigid schemas limit flexibility and slow down development.",
+      "axis": "x",
+      "lean": "liberal"
+    },
+
+    {
+      "text": "Public interfaces should above all else be simple, backward-compatible, and future-compatible.",
+      "axis": "x",
+      "lean": "liberal"
+    },
+
+    {
+      "text": "System flexibility can mean the difference between you getting the customer vs. your competitor nabbing it instead.",
+      "axis": "x",
+      "lean": "liberal"
+    },
+
+    {
+      "text": "Companies should take risks, embrace progress, and fiercely resist ossification.",
+      "axis": "x",
+      "lean": "liberal"
+    },
+
+    {
+      "text": "Premature optimization is the root of all evil.",
+      "axis": "x",
+      "lean": "liberal"
+    }
+  ]
+}

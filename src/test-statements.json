@@ -1,0 +1,15 @@
+{
+  "statements": [
+    {
+      "text": "This question tests for left lean",
+      "axis": "x",
+      "lean": "liberal"
+    },
+
+    {
+      "text": "This question tests for right lean",
+      "axis": "x",
+      "lean": "conservative"
+    }
+  ]
+}
